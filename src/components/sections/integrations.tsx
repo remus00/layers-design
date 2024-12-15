@@ -1,7 +1,7 @@
 import { integrations } from '@/constants';
-import { IntegrationColumn } from './integration-column';
-import { SectionWrapper } from './section-wrapper';
-import { Tag } from './tag';
+import { IntegrationColumn } from '../custom/integration-column';
+import { SectionWrapper } from '../custom/section-wrapper';
+import { Tag } from '../custom/tag';
 
 export const Integrations = () => {
     return (

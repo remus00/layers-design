@@ -1,9 +1,9 @@
 import designExample1Image from '@/assets/images/design-example-1.png';
 import designExample2Image from '@/assets/images/design-example-2.png';
 import Image from 'next/image';
-import { Button } from './button';
-import { Pointer } from './pointer';
-import { SectionWrapper } from './section-wrapper';
+import { Button } from '../custom/button';
+import { Pointer } from '../custom/pointer';
+import { SectionWrapper } from '../custom/section-wrapper';
 
 export const Hero = () => {
     return (
@@ -30,9 +30,8 @@ export const Hero = () => {
                     Impactful design, created effortlessly
                 </h1>
                 <p className="mx-auto mt-8 max-w-2xl text-center text-xl text-white/50">
-                    Design tools shouldn&apos;t slow you down. Layers combines powerful
-                    features with an intuitive inteface that keeps you in your creative
-                    flow.
+                    Design tools shouldn&apos;t slow you down. Layers combines powerful features
+                    with an intuitive inteface that keeps you in your creative flow.
                 </p>
                 <form className="mx-auto mt-8 flex max-w-lg rounded-full border border-white/15 p-2">
                     <input
@@ -40,12 +39,7 @@ export const Hero = () => {
                         placeholder="enter your email"
                         className="w-full bg-transparent px-4 md:flex-1"
                     />
-                    <Button
-                        variant="primary"
-                        size="sm"
-                        type="submit"
-                        className="whitespace-nowrap"
-                    >
+                    <Button variant="primary" size="sm" type="submit" className="whitespace-nowrap">
                         Sign Up
                     </Button>
                 </form>

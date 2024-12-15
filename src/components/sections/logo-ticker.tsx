@@ -1,6 +1,6 @@
 import { logos } from '@/constants';
 import Image from 'next/image';
-import { SectionWrapper } from './section-wrapper';
+import { SectionWrapper } from '../custom/section-wrapper';
 
 export const LogoTicker = () => {
     return (

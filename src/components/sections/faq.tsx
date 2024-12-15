@@ -1,8 +1,8 @@
 import { faqs } from '@/constants';
 import { cn } from '@/lib/utils';
-import { PlusIcon } from './plus-icon';
-import { SectionWrapper } from './section-wrapper';
-import { Tag } from './tag';
+import { PlusIcon } from '../custom/plus-icon';
+import { SectionWrapper } from '../custom/section-wrapper';
+import { Tag } from '../custom/tag';
 
 export const Faq = () => {
     const selectedIndex = 0;

@@ -3,12 +3,12 @@ import avatar3 from '@/assets/images/avatar-florence-shaw.jpg';
 import avatar2 from '@/assets/images/avatar-lula-meyers.jpg';
 import { featuresMap } from '@/constants';
 import Image from 'next/image';
-import { Avatar } from './avatar';
-import { FeatureCard } from './feature-card';
-import { FeatureTag } from './feature-tag';
-import { Key } from './key';
-import { SectionWrapper } from './section-wrapper';
-import { Tag } from './tag';
+import { Avatar } from '../custom/avatar';
+import { FeatureCard } from '../custom/feature-card';
+import { FeatureTag } from '../custom/feature-tag';
+import { Key } from '../custom/key';
+import { SectionWrapper } from '../custom/section-wrapper';
+import { Tag } from '../custom/tag';
 
 export const Features = () => {
     return (
@@ -27,25 +27,13 @@ export const Features = () => {
                     >
                         <div className="flex aspect-video items-center justify-center">
                             <Avatar className="z-40">
-                                <Image
-                                    src={avatar1}
-                                    alt="avatar 1"
-                                    className="rounded-full"
-                                />
+                                <Image src={avatar1} alt="avatar 1" className="rounded-full" />
                             </Avatar>
                             <Avatar className="z-30 -ml-6 border-indigo-500">
-                                <Image
-                                    src={avatar2}
-                                    alt="avatar 2"
-                                    className="rounded-full"
-                                />
+                                <Image src={avatar2} alt="avatar 2" className="rounded-full" />
                             </Avatar>
                             <Avatar className="z-20 -ml-6 border-amber-500">
-                                <Image
-                                    src={avatar3}
-                                    alt="avatar 3"
-                                    className="rounded-full"
-                                />
+                                <Image src={avatar3} alt="avatar 3" className="rounded-full" />
                             </Avatar>
                             <Avatar className="z-10 -ml-6 border-transparent">
                                 <div className="flex size-full items-center justify-center gap-1 rounded-full bg-neutral-700">

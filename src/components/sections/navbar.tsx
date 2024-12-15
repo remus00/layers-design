@@ -2,9 +2,9 @@ import logoImage from '@/assets/images/logo.svg';
 import { navLinks } from '@/constants';
 import Image from 'next/image';
 import Link from 'next/link';
-import { Button } from './button';
-import { HamburgerMenu } from './hamburger-menu';
-import { SectionWrapper } from './section-wrapper';
+import { Button } from '../custom/button';
+import { HamburgerMenu } from '../custom/hamburger-menu';
+import { SectionWrapper } from '../custom/section-wrapper';
 
 export const Navbar = () => {
     return (
@@ -12,11 +12,7 @@ export const Navbar = () => {
             <div className="container max-w-5xl">
                 <div className="grid grid-cols-2 items-center rounded-full border border-white/15 p-2 px-4 md:pr-2 lg:grid-cols-3">
                     <div className="">
-                        <Image
-                            src={logoImage}
-                            alt="Layers logo"
-                            className="h-9 w-auto md:h-auto"
-                        />
+                        <Image src={logoImage} alt="Layers logo" className="h-9 w-auto md:h-auto" />
                     </div>
                     <div className="hidden items-center justify-center lg:flex">
                         <nav className="flex gap-6 font-medium">
