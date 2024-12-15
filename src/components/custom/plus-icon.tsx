@@ -12,7 +12,10 @@ export const PlusIcon = ({ className }: { className?: string }) => {
             strokeWidth="2"
             strokeLinecap="round"
             strokeLinejoin="round"
-            className={cn('feather feather-plus text-lime-400 flex-shrink-0', className)}
+            className={cn(
+                'feather feather-plus transition duration-300 text-lime-400 flex-shrink-0',
+                className,
+            )}
         >
             <line x1="12" y1="5" x2="12" y2="19"></line>
             <line x1="5" y1="12" x2="19" y2="12"></line>
