@@ -7,6 +7,13 @@ import pulseLogo from '@/assets/images/pulse.svg';
 import quantumLogo from '@/assets/images/quantum.svg';
 import twiceLogo from '@/assets/images/twice.svg';
 
+import figmaLogo from '@/assets/images/figma-logo.svg';
+import framerLogo from '@/assets/images/framer-logo.svg';
+import githubLogo from '@/assets/images/github-logo.svg';
+import notionLogo from '@/assets/images/notion-logo.svg';
+import relumeLogo from '@/assets/images/relume-logo.svg';
+import slackLogo from '@/assets/images/slack-logo.svg';
+
 export const logos = [
     { name: 'Quantum', image: quantumLogo },
     { name: 'Acme Corp', image: acmeLogo },
@@ -40,32 +47,32 @@ export const featuresMap = [
 export const integrations = [
     {
         name: 'Figma',
-        icon: 'figma-logo.svg',
+        icon: figmaLogo,
         description: 'Figma is a collaborative interface design tool.',
     },
     {
         name: 'Notion',
-        icon: 'notion-logo.svg',
+        icon: notionLogo,
         description: 'Notion is an all-in-one workspace for notes and docs.',
     },
     {
         name: 'Slack',
-        icon: 'slack-logo.svg',
+        icon: slackLogo,
         description: 'Slack is a powerful team communication platform.',
     },
     {
         name: 'Relume',
-        icon: 'relume-logo.svg',
+        icon: relumeLogo,
         description: 'Relume is a no-code website builder and design system.',
     },
     {
         name: 'Framer',
-        icon: 'framer-logo.svg',
+        icon: framerLogo,
         description: 'Framer is a professional website prototyping tool.',
     },
     {
         name: 'GitHub',
-        icon: 'github-logo.svg',
+        icon: githubLogo,
         description: 'GitHub is the leading platform for code collaboration.',
     },
 ];
