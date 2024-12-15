@@ -23,7 +23,7 @@ export const Hero = () => {
                 </div>
                 <div className="flex justify-center">
                     <div className="inline-flex rounded-full bg-gradient-to-tr from-purple-400 to-pink-400 px-3 py-1 font-semibold text-neutral-950">
-                        ✨ $7.5 seed round raised
+                        ✨ $7.5M seed round raised
                     </div>
                 </div>
                 <h1 className="mt-6 text-center text-6xl font-medium md:text-7xl lg:text-8xl">
