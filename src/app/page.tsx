@@ -1,3 +1,4 @@
+import { Faq } from '@/components/faq';
 import { Features } from '@/components/features';
 import { Hero } from '@/components/hero';
 import { Integrations } from '@/components/integrations';
@@ -14,6 +15,7 @@ export default function Home() {
             <Introduction />
             <Features />
             <Integrations />
+            <Faq />
         </>
     );
 }
