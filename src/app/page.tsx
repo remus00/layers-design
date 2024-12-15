@@ -1,6 +1,7 @@
 import { CallToAction } from '@/components/sections/call-to-action';
 import { Faq } from '@/components/sections/faq';
 import { Features } from '@/components/sections/features';
+import { Footer } from '@/components/sections/footer';
 import { Hero } from '@/components/sections/hero';
 import { Integrations } from '@/components/sections/integrations';
 import { Introduction } from '@/components/sections/introduction';
@@ -18,6 +19,7 @@ export default function Home() {
             <Integrations />
             <Faq />
             <CallToAction />
+            <Footer />
         </>
     );
 }
